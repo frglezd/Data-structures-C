@@ -1,6 +1,4 @@
-
 #include <stdio.h>
-#include <string.h>
 #include "structs.h"
 
 struct nametype{
@@ -160,10 +158,10 @@ strncpy(name.last, "Binder", 10);
 
 writename(&name);*/
 
-int returnSeven(void){
-    
-    printf("%lu\n", sizeof(p));
-    return 7;
+int returnSeven(void) {
+
+	printf("%lu\n", sizeof(p));
+	return 7;
 }
 
 struct rational {

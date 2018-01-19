@@ -7,10 +7,15 @@
 //
 
 #include <stdio.h>
-#include "stack.c"
+#include <stdbool.h>
+#include "stack.h"
 
-int main(int argc, const char * argv[]) {
+
+void main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    
+	
+	bar();
     return 0;
 }
+

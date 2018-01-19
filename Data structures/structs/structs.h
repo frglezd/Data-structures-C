@@ -4,6 +4,7 @@
 #define structs_h
 
 #include <stdlib.h>
+#include <stdio.h>
 
 struct nametype;
 struct addrtype;
@@ -19,7 +20,6 @@ struct student;
 #define HOME 3
 
 struct addr;
-
 
 struct policy;
 

@@ -9,10 +9,10 @@
 #include <stdio.h>
 #include <string.h> // for functions such as strncpy
 #include "structs.c"
+#include "structs.h"
 
 
 int main(void) {
-    // insert code here...
     
     struct rational a;
     a.denominator=5;
